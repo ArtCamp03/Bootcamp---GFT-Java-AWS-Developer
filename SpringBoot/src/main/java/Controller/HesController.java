@@ -1,5 +1,13 @@
 package Controller;
 
-public class HesController {
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+public class HesController {
+	
+	@GetMapping("/")
+	public String Hellomsg() {
+		return "Hello Digital Inovation One";
+	}
 }
