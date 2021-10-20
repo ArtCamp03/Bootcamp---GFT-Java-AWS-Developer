@@ -1,4 +1,4 @@
-package br.com.globallabs.springwebmvc.rest;
+package com.ArturLabs.SpringwebMVC.rest;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ public class JediResource {
     @GetMapping("/api/jedi")
     public List<Jedi> getAllJedi() {
 
-       return service.findAll();
+        return service.findAll();
 
     }
 
@@ -44,7 +44,7 @@ public class JediResource {
 
         return service.save(jedi);
     }
-    
+
     @PutMapping("/api/jedi/{id}")
     public ResponseEntity<Jedi> updateJedi(@PathVariable("id") Long id, @Valid @RequestBody Jedi dto) {
 

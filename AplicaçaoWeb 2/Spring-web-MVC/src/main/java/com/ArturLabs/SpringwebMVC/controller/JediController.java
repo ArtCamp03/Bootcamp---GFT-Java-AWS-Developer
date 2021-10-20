@@ -1,4 +1,4 @@
-package br.com.globallabs.springwebmvc.controller;
+package com.spring.web.controller;
 
 import java.util.Optional;
 
@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import java.util.List;
 
 @Controller
 public class JediController {

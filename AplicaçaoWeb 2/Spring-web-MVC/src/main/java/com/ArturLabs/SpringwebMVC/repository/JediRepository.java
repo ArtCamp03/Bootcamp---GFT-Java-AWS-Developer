@@ -1,4 +1,4 @@
-package br.com.globallabs.springwebmvc.repository;
+package com.ArturLabs.SpringwebMVC.repository;
 
 import java.util.List;
 
@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface JediRepository extends JpaRepository<Jedi, Long> {
 
-    List<Jedi> findByNameContainingIgnoreCase(final String name); 
+    List<Jedi> findByNameContainingIgnoreCase(final String name);
 
 }

@@ -1,4 +1,4 @@
-package br.com.globallabs.springwebmvc;
+package com.ArturLabs.SpringwebMVC;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,4 +9,5 @@ public class SpringWebMvcApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringWebMvcApplication.class, args);
 	}
+
 }

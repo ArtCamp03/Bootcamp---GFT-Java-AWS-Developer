@@ -1,4 +1,4 @@
-package br.com.globallabs.springwebmvc.model;
+package com.ArturLabs.SpringwebMVC.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,7 +12,6 @@ import javax.validation.constraints.Size;
 @Entity
 @Table(name = "jedi")
 public class Jedi {
-
     @Id
     @Column(name="id_jedi")
     @GeneratedValue(strategy = GenerationType.AUTO)
