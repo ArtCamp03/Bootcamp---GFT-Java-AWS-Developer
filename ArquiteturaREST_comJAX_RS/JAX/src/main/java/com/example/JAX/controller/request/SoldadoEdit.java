@@ -1,18 +1,9 @@
-package com.example.JAX.dto;
+package com.example.JAX.controller.request;
 
-public class Soldado {
-    private String CPF;
+public class SoldadoEdit {
     private String nome;
     private String raca;
     private String arma;
-
-    public String getCPF() {
-        return CPF;
-    }
-
-    public void setCPF(String CPF) {
-        this.CPF = CPF;
-    }
 
     public String getNome() {
         return nome;
