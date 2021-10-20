@@ -21,4 +21,8 @@ public class SoldadoService {
     public void alteraSoldado(String cpf, SoldadoEdit soldadoEdit ){
 
     }
+
+    public void deletaSoldado(String cpf){
+
+    }
 }

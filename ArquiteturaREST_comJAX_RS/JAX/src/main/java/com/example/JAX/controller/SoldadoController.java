@@ -22,14 +22,21 @@ public class SoldadoController {
     }
 
     @PostMapping
-    public ResponseBody<Soldado> criaSodlado(ResponseBody Soldado soldado){
+    public ResponseBody criaSodlado(ResponseBody Soldado soldado){
         soldadoService.criaSoldado(soldado);
         return ResponseBody.ok().build();
     }
 
     @PostMapping("/{cpf}")
-    public ResponseBody<Soldado> editaSoldado(PathVariable String cpf, ResponseBody SoldadoEdit soldadoEdit){
+    public ResponseBody editaSoldado(PathVariable String cpf, ResponseBody SoldadoEdit soldadoEdit){
         soldadoService.alteraSoldado(cpf,SoldadoEdit());
         return ResponseBody.ok().build();
     }
+
+    @PostMapping("/{cpf}")
+    public ResponseBody deletaSoldado(PathVariable String cpf){
+        soldadoService.deletaSoldado(cpf);
+        return ResponseBody.ok().build();
+    }
+
 }
