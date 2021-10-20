@@ -1,13 +1,5 @@
 package com.ArturLabs.SpringwebMVC.service;
 
-import br.com.globallabs.springwebmvc.excepiton.JediNotFoundException;
-import br.com.globallabs.springwebmvc.model.Jedi;
-import br.com.globallabs.springwebmvc.repository.JediRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.Optional;
 
 @Service
 public class JediService {
