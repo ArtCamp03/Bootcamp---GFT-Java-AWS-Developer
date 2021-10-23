@@ -7,4 +7,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/oswaldoneto/dio-experts-config.git
+          uri: https://github.com/ArtCamp03/Bootcamp---GFT-Java-AWS-Developer/tree/main/SpringCloud_microservi%C3%A7os/dio-experts-config-master.git
